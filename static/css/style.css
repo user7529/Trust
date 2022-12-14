@@ -1,0 +1,44 @@
+body {
+    color: black;
+}
+
+
+.container {
+    grid-template-rows:    repeat(5, 19vh);
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    background-color: black;
+}
+
+.container {
+    padding:12px;
+}
+
+.inner {
+    justify-items: center;
+    align-items:   center;
+    display: grid;
+
+}
+
+.inner2 {
+    justify-self: center;
+    align-self:   center;
+}
+
+iframe {
+    width: 12vw;
+    height: 12vh;
+    /* padding-top: 5px; */
+}
+
+body > div > div > div > p {
+    color:white;
+    text-align: center;
+    /* padding-bottom: 5px; */
+}
+
+/* .extra-center {
+    text-align: center !important;
+
+} */
